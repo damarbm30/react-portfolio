@@ -1,5 +1,5 @@
 import { Header, Navbar } from "./components";
-import { About, Contact, Home, Services, Works } from "./pages";
+import { About, Contact, Home, Works } from "./pages";
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
       <Home />
       <Navbar />
       <About />
-      <Services />
       <Works />
       <Contact />
       <div className="h-[4000px]"></div>
