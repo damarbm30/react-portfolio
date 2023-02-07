@@ -74,9 +74,10 @@ const Home = () => {
           </div>
           {/* image */}
           <motion.div
-            variants={fadeIn("up", 0.4)}
+            variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView="show"
+            viewport={{ once: false, amount: 0.7 }}
             className="mx-auto hidden max-w-[320px] flex-1 lg:flex lg:max-w-[482px]"
           >
             <img src={avatar} alt="avatar" />
