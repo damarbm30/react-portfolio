@@ -1,5 +1,5 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { BsBriefcase, BsChatSquare } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -26,15 +26,6 @@ const Navbar = () => {
             spy={true}
           >
             <BiUser />
-          </Link>
-          <Link
-            to="services"
-            className="flex h-[60px] w-[60px] cursor-pointer items-center justify-center"
-            activeClass="active"
-            smooth={true}
-            spy={true}
-          >
-            <BsClipboardData />
           </Link>
           <Link
             to="works"
