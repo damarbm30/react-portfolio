@@ -29,7 +29,7 @@ const Works = () => {
             {/* image */}
             <div className="group relative overflow-hidden rounded-xl border-2 border-white/50">
               {/* overlay */}
-              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
+              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70" />
               {/* img */}
               <img className="transition-all duration-500 group-hover:scale-125" src={tanyaKiai} alt="tanya-kiai" />
               {/* pretitle */}
@@ -52,7 +52,7 @@ const Works = () => {
             {/* image */}
             <div className="group relative overflow-hidden rounded-xl border-2 border-white/50">
               {/* overlay */}
-              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
+              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70" />
               {/* img */}
               <img className="transition-all duration-500 group-hover:scale-125" src={cryptoverse} alt="cryptoverse" />
               {/* pretitle */}
@@ -67,7 +67,7 @@ const Works = () => {
             {/* image */}
             <div className="group relative overflow-hidden rounded-xl border-2 border-white/50">
               {/* overlay */}
-              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
+              <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70" />
               {/* img */}
               <img className="transition-all duration-500 group-hover:scale-125" src={hoobank} alt="hoobank" />
               {/* pretitle */}
