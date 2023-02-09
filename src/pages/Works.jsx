@@ -16,7 +16,7 @@ const Works = () => {
           >
             {/* text */}
             <div>
-              <h2 className="h2 leading-tight text-accent">
+              <h2 className="h2 font-bold leading-tight text-accent">
                 My Latest <br /> Work
               </h2>
               <p className="mb-10 max-w-sm">
