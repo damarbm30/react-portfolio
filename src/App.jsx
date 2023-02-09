@@ -10,7 +10,6 @@ function App() {
       <About />
       <Works />
       <Contact />
-      <div className="h-[4000px]"></div>
     </div>
   );
 }
