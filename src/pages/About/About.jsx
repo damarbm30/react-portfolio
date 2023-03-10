@@ -1,7 +1,7 @@
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -21,11 +21,14 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 font-bold text-accent">About Me</h2>
-            <h3 className="h3 mb-4">I'm a Junior Frontend Developer with 1 year of experiences</h3>
+            <h3 className="h3 mb-4">
+              I'm a Junior Frontend Developer with 1 year of experiences
+            </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates molestias necessitatibus nulla,
-              corrupti fuga obcaecati consequatur qui. Eligendi porro deleniti asperiores non at, voluptatem repellat
-              iusto nam placeat ullam.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+              voluptates molestias necessitatibus nulla, corrupti fuga obcaecati
+              consequatur qui. Eligendi porro deleniti asperiores non at,
+              voluptatem repellat iusto nam placeat ullam.
             </p>
             {/* stats */}
             <div className="mb-12 flex gap-x-6 lg:gap-x-10">

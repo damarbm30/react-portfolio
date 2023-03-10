@@ -1,11 +1,11 @@
-import { avatar } from "../assets";
+import { avatar } from "../../assets";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const Home = () => {
   return (
-    <section id="home" className="flex min-h-[85vh] items-center lg:min-h-[78vh]">
+    <section id="home" className="flex h-screen items-center overflow-hidden">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:justify-between lg:gap-x-12">
           {/* text */}
@@ -37,9 +37,10 @@ const Home = () => {
               viewport={{ once: false, amount: 0.4 }}
               className="mx-auto mb-8 max-w-lg lg:mx-0"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae itaque velit soluta quasi quo corporis
-              officiis facilis temporibus nesciunt dolorem magnam necessitatibus, consectetur dignissimos iusto incidunt
-              blanditiis nulla placeat laboriosam.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae itaque velit soluta quasi quo corporis officiis facilis
+              temporibus nesciunt dolorem magnam necessitatibus, consectetur
+              dignissimos iusto incidunt blanditiis nulla placeat laboriosam.
             </motion.p>
             <motion.div
               variants={fadeIn("down", 0.2)}
@@ -61,13 +62,25 @@ const Home = () => {
               viewport={{ once: false, amount: 0.4 }}
               className="mx-auto flex max-w-max gap-x-6 text-[1.25rem] lg:mx-0"
             >
-              <a href="https://github.com/damarbm30">
+              <a
+                href="https://github.com/damarbm30"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/damar-murti">
+              <a
+                href="https://www.linkedin.com/in/damar-murti"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/damar_murti">
+              <a
+                href="https://www.instagram.com/damar_murti"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaInstagram />
               </a>
             </motion.div>
