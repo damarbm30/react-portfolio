@@ -5,7 +5,10 @@ import { fadeIn } from "../../variants";
 
 const Home = () => {
   return (
-    <section id="home" className="flex h-screen items-center overflow-hidden">
+    <section
+      id="home"
+      className="flex min-h-screen items-center overflow-hidden"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:justify-between lg:gap-x-12">
           {/* text */}
@@ -37,10 +40,12 @@ const Home = () => {
               viewport={{ once: false, amount: 0.4 }}
               className="mx-auto mb-8 max-w-lg lg:mx-0"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestiae itaque velit soluta quasi quo corporis officiis facilis
-              temporibus nesciunt dolorem magnam necessitatibus, consectetur
-              dignissimos iusto incidunt blanditiis nulla placeat laboriosam.
+              Welcome to my online portfolio! I am thrilled to have this
+              opportunity to showcase my skills and experiences. I hope this
+              portfolio will give you a glimpse into my passion for web
+              developing and my commitment to excellence. Thank you for
+              visiting, and please feel free to contact me through my social
+              media below with any questions or inquiries.
             </motion.p>
             <motion.div
               variants={fadeIn("down", 0.2)}

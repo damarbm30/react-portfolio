@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section id="about" className="section" ref={ref}>
       <div className="container mx-auto">
-        <div className="flex h-screen flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
+        <div className="flex min-h-screen flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
           {/* text */}
           <motion.div
             variants={fadeIn("left", 0.3)}
@@ -25,10 +25,12 @@ const About = () => {
               I'm a Junior Frontend Developer with 1 year of experiences
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              voluptates molestias necessitatibus nulla, corrupti fuga obcaecati
-              consequatur qui. Eligendi porro deleniti asperiores non at,
-              voluptatem repellat iusto nam placeat ullam.
+              Hello, I'm Damar, a junior web developer with a passion for design
+              and technology. I have 1 year of experience in frontend
+              development. I enjoy taking on new projects and pushing my
+              creative boundaries to create innovative and unique solutions for
+              my clients. I look forward to working with you on your next
+              project and bringing your vision to life. 
             </p>
             {/* stats */}
             <div className="mb-12 flex gap-x-6 lg:gap-x-10">
