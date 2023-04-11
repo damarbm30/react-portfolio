@@ -60,12 +60,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-x-8">
-                <button className="btn btn-lg">Contact Me</button>
-                <a href="#" className="text-gradient btn-link">
-                  My Portfolio
-                </a>
-              </div>
             </div>
           </motion.div>
           {/* img */}

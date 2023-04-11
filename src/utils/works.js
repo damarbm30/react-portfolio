@@ -1,4 +1,4 @@
-import { carRental, cryptoverse, tanyaKiai } from "../assets";
+import { carRental, carRentalAdmin, cryptoverse, tanyaKiai } from "../assets";
 
 export const works = [
   {
@@ -20,6 +20,13 @@ export const works = [
     pretitle: "React JS",
     name: "Car Rental",
     img: carRental,
-    url: "https://car-rental-damar.vercel.app/",
+    url: "https://bcr-platinum-user.vercel.app/",
+  },
+  {
+    id: 4,
+    pretitle: "React JS",
+    name: "Car Rental Admin",
+    img: carRentalAdmin,
+    url: "https://bcr-platinum-admin.vercel.app/",
   },
 ];

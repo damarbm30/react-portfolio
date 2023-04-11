@@ -47,18 +47,6 @@ const Home = () => {
               visiting, and please feel free to contact me through my social
               media below with any questions or inquiries.
             </motion.p>
-            <motion.div
-              variants={fadeIn("down", 0.2)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0.4 }}
-              className="mx-auto mb-12 flex max-w-max items-center gap-x-6 lg:mx-0"
-            >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
-            </motion.div>
             {/* socials */}
             <motion.div
               variants={fadeIn("down", 0.2)}

@@ -7,7 +7,11 @@ const Header = () => {
           <a href="#" className="text-gradient text-2xl font-bold">
             DAMAR
           </a>
-          <button className="btn btn-sm">Work with me</button>
+          <button className="btn btn-sm">
+            <a href="/cv.pdf" download>
+              My Resume
+            </a>
+          </button>
         </div>
       </div>
     </header>
